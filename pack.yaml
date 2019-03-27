@@ -1,5 +1,5 @@
 ---
-  name: whatsapp-chatapi
+  name: whatsappchatapi
   description: WhatsApp Messaging integration using chat-api.com
   keywords:
     - telegram

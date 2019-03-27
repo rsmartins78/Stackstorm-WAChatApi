@@ -4,7 +4,7 @@
     type: "string"
     secret: true
     required: true
-  instance:
+  api_instance:
     description: "api instace of whatsapp chat-api.com"
     type: "string"
     secret: true

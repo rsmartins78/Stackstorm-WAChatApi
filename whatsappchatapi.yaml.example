@@ -1,3 +1,3 @@
 ---
   api_token: "secret_api_token"
-  instance: "instance"
+  api_instance: "instance"

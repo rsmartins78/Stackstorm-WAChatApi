@@ -1,6 +1,6 @@
 import requests
 
-class WASendMessage:
+class whatsappchatapi:
 
     def send_message(instance,token,chatId,message):
 

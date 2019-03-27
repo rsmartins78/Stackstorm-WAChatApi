@@ -1,0 +1,11 @@
+---
+  name : whatsapp-chatapi
+  description : WhatsApp Messaging integration using chat-api.com
+  keywords:
+    - telegram
+    - messaging
+    - whatsapp
+    - facebook
+  version: 0.0.1
+  author : Rafael Martins
+  email : rafmartins09@gmail.com

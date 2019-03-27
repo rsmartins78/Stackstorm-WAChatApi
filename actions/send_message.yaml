@@ -1,0 +1,15 @@
+---
+  name: "send_message"
+  runner_type: "python-script"
+  description: "send a message to a whatsapp user or group via chat-api.com"
+  enabled: true
+  entry_point: "send_message.py"
+  parameters:
+    message:
+      type: "string"
+      description: "message to send"
+      required: true
+    chat_id:
+      type: "string"
+      description: "chat_id to send the message"
+      required: true

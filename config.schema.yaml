@@ -1,0 +1,11 @@
+---
+  api_token:
+    description: "api token for whatsapp chat-api.com instance"
+    type: "string"
+    secret: true
+    required: true
+  instance:
+    description: "api instace of whatsapp chat-api.com"
+    type: "string"
+    secret: true
+    required: true

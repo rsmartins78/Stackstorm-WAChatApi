@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 import requests
 
 class WASendMessage:
@@ -14,15 +12,3 @@ class WASendMessage:
 
         response_text = r.text
         print(response_text)
-
-
-
-
-
-
-# instance = "instance32573"
-# token = "pkdahmmvixtcmajp"
-# chatId = '5511952218967@c.us'
-# message = 'Hello From Python'
-
-# send_message(instance,token,chatId,message)

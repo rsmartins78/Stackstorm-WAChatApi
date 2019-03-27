@@ -6,9 +6,12 @@ class whatsappchatapi:
 
         url = "https://eu21.chat-api.com/"
 
+        api_instance = instance
+
         data = {'chatId':str(chat_id), 'body':str(message)}
 
-        r = requests.post(url=url+str(instance)+'/sendMessage?token='+str(token), json=data.encode('utf8'))
+        r = requests.post(url=url+str(api_instance)+'/sendMessage?token='+str(token), json=data.encode('utf8'))
 
         response_text = r.text
+        
         print(response_text)

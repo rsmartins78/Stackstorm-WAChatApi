@@ -9,7 +9,7 @@
       type: "string"
       description: "message to send"
       required: true
-    chatId:
+    chat_id:
       type: "string"
       description: "chatId to send the message"
       required: true

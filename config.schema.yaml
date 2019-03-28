@@ -9,3 +9,8 @@
     type: "string"
     secret: true
     required: true
+  api_server:
+    description: "api instace of whatsapp chat-api.com"
+    type: "string"
+    secret: true
+    required: true

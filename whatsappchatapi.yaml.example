@@ -1,3 +1,4 @@
 ---
 api_token: "secret_api_token"
 api_instance: "instance"
+api_server: "eu21"

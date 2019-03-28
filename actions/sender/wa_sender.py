@@ -1,14 +1,20 @@
 import requests
 
+class WhatsAppChatApiMessages:
 
-def wasend_message(instance,token,chat_id,message):
+    def __init__(self, server, instance, api_token):
+        self.server = server
+        self.instance = instance        
+        self.api_token = api_token
 
-    url = "https://eu21.chat-api.com/"
+    def send_message(self,chat_id,message):
 
-    data = {'chatId':chat_id, 'body':message}
+        url = "https://"+self.server+".chat-api.com/"
 
-    r = requests.post(url=url+str(instance)+'/sendMessage?token='+str(token), json=data)
+        data = {'chatId':chat_id, 'body':message}
 
-    response_text = r.text
+        r = requests.post(url=url+str(self.instance)+'/sendMessage?token='+str(self.api_token), json=data)
 
-    print(response_text)
+        response_text = r.text
+
+        print(response_text)
